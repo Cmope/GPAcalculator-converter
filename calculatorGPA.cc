@@ -115,7 +115,8 @@ void printCourse()
             std::cout << std::left << std::setw(40) << course.first << " | " << course.second << std::endl;
         }
     }
-    std::cout << "Average GPA: " << averageGPA() << std::endl;
+    std::cout << "==================================================" << std::endl;
+    std::cout << "Average GPA-" << currentScale << " scale: "<< averageGPA() << std::endl;
 }
 
 void changeScale()
